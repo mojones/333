@@ -86,6 +86,18 @@
       font-size: 0.92rem;
     }
 
+    .note a {
+      color: inherit;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 0.15em;
+    }
+
+    .note a:hover,
+    .note a:focus-visible {
+      color: var(--accent);
+      outline: none;
+    }
+
     button {
       border: 3px solid var(--line);
       background: var(--accent);
@@ -214,7 +226,7 @@
     <div class="topbar">
       <div>
         <h1>3/3/3</h1>
-        <p class="note">One main project. Three shorter tasks. Three maintenance tasks. Based on the 3/3/3 idea from Oliver Burkeman's newsletter <em>The Imperfectionist</em>, in the post "3/3/3, a method for structuring the day."</p>
+        <p class="note">One main project. Three shorter tasks. Three maintenance tasks. Based on Oliver Burkeman's 3/3/3 idea from <a href="https://ckarchive.com/b/e5uph7hx43mn" target="_blank" rel="noopener noreferrer"><em>The Imperfectionist</em></a> and the post "3/3/3, a method for structuring the day."</p>
       </div>
       <div class="controls">
         <div class="theme-toggle" role="group" aria-label="Theme">
